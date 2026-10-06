@@ -98,7 +98,7 @@ The dataset contains face images labeled as **awake** or **drowsy**.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/harieyudha/Driver-drowsiness-detection..git driver-drowsiness-detection
+git clone https://github.com/harieyudha/driver-drowsiness-detection.git
 cd driver-drowsiness-detection
 
 # 2. Create virtual environment
