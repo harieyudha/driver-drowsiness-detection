@@ -75,7 +75,7 @@ State-of-the-art classification using YOLOv8n-cls.
 
 ## 🗂️ Dataset
 
-The dataset contains face images labeled as **awake** or **drowsy**.
+The preprocessing notebook expects a dataset with two source folders: `Drowsy` and `Non Drowsy`. The dataset used for the experiments is not included in this repository (the local copy is approximately 8 GB). No public download link is provided because redistribution rights and a verified source have not been established.
 
 | Split | Awake | Drowsy | Total |
 |-------|------:|------:|------:|
@@ -83,8 +83,26 @@ The dataset contains face images labeled as **awake** or **drowsy**.
 | Validation | ~2,500 | ~2,900 | ~5,400 |
 | Test | 2,918 | 3,353 | **6,271** |
 
-> The dataset is **not included** in this repository due to size constraints.  
-> Please prepare your own dataset following the structure in `02_Preprocessing.ipynb`.
+### Prepare your dataset
+
+Use a dataset you are permitted to use and redistribute, then place its images in this structure:
+
+```text
+dataset/
+└── raw/
+    ├── Drowsy/
+    │   ├── image_001.jpg
+    │   └── ...
+    └── Non Drowsy/
+        ├── image_001.jpg
+        └── ...
+```
+
+The preprocessing notebook accepts `.jpg`, `.jpeg`, and `.png` images. Run `02_Preprocessing.ipynb` to create the train, validation, and test splits for the CNN/MobileNetV2 and YOLO notebooks under `dataset/processed/`.
+
+> **Important:** preprocessing deletes and recreates `dataset/processed/`. Back up anything in that folder before running it. The `dataset/` directory is excluded by `.gitignore`, so local images and generated splits will not be committed to Git.
+
+If you have a verified public source and permission to share this dataset, add its download link here.
 
 ---
 
