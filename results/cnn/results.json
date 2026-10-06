@@ -1,0 +1,55 @@
+{
+    "model": "CNN (Lightweight Architecture)",
+    "timestamp": "20260628-001204",
+    "training_time_minutes": 104.86,
+    "epochs": 20,
+    "test_metrics": {
+        "accuracy": 0.9997,
+        "precision": 0.9998,
+        "recall": 0.9995,
+        "f1_score": 0.9996,
+        "auc_roc": 1.0,
+        "loss": 0.0017
+    },
+    "best_validation": {
+        "accuracy": 0.9998,
+        "loss": 0.0013
+    },
+    "config": {
+        "img_size": [128, 128],
+        "batch_size": 16,
+        "epochs": 20,
+        "learning_rate": 0.001,
+        "early_stopping_patience": 5,
+        "reduce_lr_patience": 3,
+        "class_names": ["awake", "drowsy"]
+    },
+    "confusion_matrix": [[2916, 2], [3, 3350]],
+    "classification_report": {
+        "awake": {
+            "precision": 0.9989,
+            "recall": 0.9993,
+            "f1-score": 0.9991,
+            "support": 2918.0
+        },
+        "drowsy": {
+            "precision": 0.9991,
+            "recall": 0.9991,
+            "f1-score": 0.9991,
+            "support": 3353.0
+        },
+        "accuracy": 0.9997,
+        "macro avg": {
+            "precision": 0.999,
+            "recall": 0.9992,
+            "f1-score": 0.9991,
+            "support": 6271.0
+        },
+        "weighted avg": {
+            "precision": 0.999,
+            "recall": 0.9997,
+            "f1-score": 0.9997,
+            "support": 6271.0
+        }
+    }
+}

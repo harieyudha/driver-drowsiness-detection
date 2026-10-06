@@ -1,0 +1,72 @@
+{
+    "model": "YOLOv8 Classification",
+    "timestamp": "20260629-213604",
+    "training_time_minutes": 26.816461976369222,
+    "epochs": 30,
+    "test_metrics": {
+        "accuracy": 1.0,
+        "top5_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "auc_roc": 1.0
+    },
+    "config": {
+        "model_name": "yolov8n-cls.pt",
+        "epochs": 30,
+        "batch_size": 16,
+        "imgsz": 224,
+        "learning_rate": 0.001,
+        "optimizer": "AdamW",
+        "weight_decay": 0.0005,
+        "dropout": 0.3,
+        "patience": 10,
+        "workers": 4,
+        "device": "0",
+        "project": "c:\\Users\\ACER\\Documents\\VS CODE DATA py\\models\\yolo",
+        "name": "yolo_classification",
+        "exist_ok": true,
+        "verbose": true,
+        "class_names": [
+            "awake",
+            "drowsy"
+        ]
+    },
+    "confusion_matrix": [
+        [
+            2918,
+            0
+        ],
+        [
+            0,
+            3353
+        ]
+    ],
+    "classification_report": {
+        "awake": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2918.0
+        },
+        "drowsy": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3353.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6271.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6271.0
+        }
+    }
+}

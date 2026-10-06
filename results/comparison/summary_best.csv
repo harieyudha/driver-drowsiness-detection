@@ -1,0 +1,5 @@
+Metrik,Model,Nilai
+Akurasi Terbaik,YOLOv8,100.00%
+F1-Score Terbaik,YOLOv8,1.0000
+Training Tercepat,YOLOv8,26.8 min
+Model Teringan,YOLOv8,6 MB

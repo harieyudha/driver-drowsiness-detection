@@ -1,0 +1,6 @@
+Skenario,Model Rekomendasi,Alasan
+Aplikasi Mobile Real-time,YOLOv8,Ringan (6MB) + Cepat
+Akurasi Maksimal,YOLOv8,Akurasi tertinggi (100.00%)
+Edge Device (IoT),YOLOv8,Ukuran kecil (6MB)
+Cloud/Server,YOLOv8,Akurasi tinggi (100.00%)
+Research Baseline,CNN,Baseline untuk penelitian

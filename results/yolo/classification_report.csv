@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support
+awake,1.0,1.0,1.0,2918.0
+drowsy,1.0,1.0,1.0,3353.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,6271.0
+weighted avg,1.0,1.0,1.0,6271.0

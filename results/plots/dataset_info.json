@@ -1,0 +1,15 @@
+{
+    "dataset_path": "c:\\Users\\ACER\\Documents\\VS CODE DATA py\\dataset\\raw",
+    "total_images": 41793,
+    "class_counts": {
+        "Drowsy": 22348,
+        "Non Drowsy": 19445
+    },
+    "image_formats": [
+        "jpg",
+        "png",
+        "jpeg"
+    ],
+    "drowsy_count": 22348,
+    "non_drowsy_count": 19445
+}
