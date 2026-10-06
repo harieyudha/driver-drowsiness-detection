@@ -75,7 +75,7 @@ State-of-the-art classification using YOLOv8n-cls.
 
 ## 🗂️ Dataset
 
-The preprocessing notebook expects a dataset with two source folders: `Drowsy` and `Non Drowsy`. The dataset used for the experiments is not included in this repository (the local copy is approximately 8 GB). No public download link is provided because redistribution rights and a verified source have not been established.
+The preprocessing notebook expects a dataset with two source folders: `Drowsy` and `Non Drowsy`. The dataset used for the experiments is not included in this repository (the local copy is approximately 8 GB); it is shared separately on Google Drive.
 
 | Split | Awake | Drowsy | Total |
 |-------|------:|------:|------:|
@@ -102,7 +102,7 @@ The preprocessing notebook accepts `.jpg`, `.jpeg`, and `.png` images. Run `02_P
 
 > **Important:** preprocessing deletes and recreates `dataset/processed/`. Back up anything in that folder before running it. The `dataset/` directory is excluded by `.gitignore`, so local images and generated splits will not be committed to Git.
 
-If you have a verified public source and permission to share this dataset, add its download link here.
+Download the dataset from [Google Drive](https://drive.google.com/open?id=1dpZfTzgoiSBUoG_XjUJrco6wV3R5WYE9&usp=drive_fs). Access depends on the sharing permissions configured for the Drive file.
 
 ---
 
